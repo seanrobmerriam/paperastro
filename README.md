@@ -122,4 +122,36 @@ GitHub: [https://github.com/fabformhub/paperastro](https://github.com/fabformhub
 [https://www.npmjs.com/package/@fabform/paperastro](https://www.npmjs.com/package/@fabform/paperastro)  
 You can explore the npm package.
 
----
+
+## Tech Stack
+
+PaperAstro is intentionally simple and built on proven tools:
+
+- **Astro** — fast, content‑focused, zero‑JS by default  
+- **PaperCSS** — lightweight, sketch‑inspired styling  
+- **Fabform** — backend‑free form handling  
+- **MDX** — write content with embedded components  
+- **Sharp** — automatic image optimization  
+- **Vercel** — frictionless deployment  
+
+## Form Handling with Fabform
+
+PaperAstro ships with **first‑class Fabform support**.  
+No plugins. No server code. No API keys.
+
+### Why Fabform?
+
+- Zero backend setup  
+- Instant form submissions  
+- Spam protection without captchas  
+- Email notifications out of the box  
+- Clean, modern dashboard  
+- Webhooks, CSV export, redirects, analytics  
+
+### Connect a Form
+
+Every form in PaperAstro is already wired for Fabform:
+
+```html
+<form action="https://fabform.io/f/{YOUR_FORM_ID}" method="post">
+
