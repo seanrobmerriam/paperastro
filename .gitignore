@@ -3,6 +3,8 @@ dist/
 # generated types
 .astro/
 
+.npmrc
+
 # dependencies
 node_modules/
 
@@ -22,3 +24,5 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+.npmrc
+.npmrc
