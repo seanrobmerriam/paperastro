@@ -155,3 +155,23 @@ Every form in PaperAstro is already wired for Fabform:
 ```html
 <form action="https://fabform.io/f/{YOUR_FORM_ID}" method="post">
 
+
+```
+
+Here’s a clean, polished addition you can drop straight into the bottom of your README.  
+It keeps the tone consistent with the rest of the document and gives Fabform a proper spotlight without bloating the file.
+
+---
+
+## Fabform.io
+
+PaperAstro is built to work seamlessly with **Fabform**, a modern form‑handling platform designed for developers who want backend‑free submissions, instant notifications, and a clean dashboard.
+
+Fabform powers all forms in this template out of the box — no servers, no API keys, no configuration.
+
+### Learn More
+
+Visit **https://fabform.io** to explore features, pricing, and documentation.
+
+---
+
