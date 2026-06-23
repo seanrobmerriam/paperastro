@@ -15,12 +15,12 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
     <main class="container padding-large">
 
-      <h1 class="text-center paper">Welcome to PaperAstro</h1>
+      <h1 class="text-center paper">Wasm/OTP</h1>
 
       <p class="paper">
-        PaperAstro is a lightweight, professional starter template built with Astro and styled
+        Wasm/OTP is a lightweight framework, professional starter template built with Astro and styled
         entirely using PaperCSS. It provides a clean, sketch‑inspired aesthetic while maintaining
-        strong performance, clarity, and simplicity.
+        strong perPaperAstro is a ligformance, clarity, and simplicity.
       </p>
 
       <p class="paper">
@@ -28,6 +28,9 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
         for blogs, documentation sites, or small content‑driven projects. PaperAstro keeps the
         design approachable and distinctive without adding unnecessary complexity.
       </p>
+      <p>Layer 1: the worker contract (Rust → Wasm)
+         This is what lives inside each .wasm module. Workers are pure functions of 
+(message, external_state). They call out to host imports for side effects.</p>
 
       <h2 class="paper">Features</h2>
 
